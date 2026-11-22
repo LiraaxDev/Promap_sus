@@ -1,0 +1,29 @@
+name: promap_sus
+description: PROMAP-SUS - Prontuário Cartográfico para Pessoas com Deficiência no SUS (app móvel offline-first, arquitetura hexagonal).
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+  flutter: '>=3.19.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  get_it: ^7.7.0
+  sqflite_sqlcipher: ^3.1.0
+  path: ^1.9.0
+  geolocator: ^12.0.0
+  connectivity_plus: ^6.0.3
+  crypto: ^3.0.3
+  cryptography: ^2.7.0
+  http: ^1.2.2
+  flutter_secure_storage: ^9.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true

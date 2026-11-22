@@ -1,0 +1,8 @@
+.dart_tool/
+.packages
+build/
+*.iml
+.idea/
+pubspec.lock
+# Widget Preview related
+.widget_preview/
